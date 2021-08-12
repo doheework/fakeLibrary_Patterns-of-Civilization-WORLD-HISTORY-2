@@ -1,0 +1,647 @@
+body {
+    margin: 0px atuo;
+    height:100vh;
+    background: linear-gradient(270deg, #FF0011 -1.6%, #00B1A7 101.6%);
+    background-attachment: fixed;
+  }
+
+.book1{
+  position: absolute;
+  width: 644px;
+  height: 721px;
+  left: 35%;
+  top: 96px;
+  background: url(poc_mockup_fornt.png);
+  background-repeat:no-repeat;
+  background-size:cover;  
+  transform: translate(-50%,0%);
+}
+
+.book2{
+    position: absolute;
+    width: 644px;
+    height: 721px;
+    left: 65%;
+    top: 96px;
+    background: url(wh_mockup_fornt.png);
+    background-repeat:no-repeat;
+    background-size:cover;  
+    transform: translate(-50%,0%);
+}
+
+.book1:hover {
+    position: absolute;
+    width: 644px;
+    height: 721px;
+    left: 35%;
+    top: 96px;
+    background: url(poc_mockup_back.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    transform: translate(-50%,0%);   
+}
+
+.book2:hover {
+    position: absolute;
+    width: 644px;
+    height: 721px;
+    left: 65%;
+    top: 96px;
+    background: url(wh_mockup_back.png);
+    background-repeat:no-repeat;
+    background-size:cover;  
+    transform: translate(-50%,0%);
+}
+
+.부제 {
+    position: absolute;
+    width: 627px;
+    height: 20px;
+    top: 880px;
+    left: 50%;
+    transform: translate(-50%,0%);
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.arrow{
+    position: fixed;
+    left: 50px;
+    top: 27px;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.arrow:hover {
+    cursor:pointer;
+}
+
+.backname{
+    position: fixed;
+    width: 931px;
+    height: 45px;
+    left: 95px;
+    top: 25px;
+
+    font-family: Comic Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+}
+
+.text{
+    position: absolute;
+    width: 54%;
+    left : 50%;
+    top: 900px;
+    transform: translate(-50%,0%);
+    top: 980px;
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 172%;
+    /* or 24px */
+
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+    padding-bottom: 200px;
+    z-index:1;
+}
+
+h {
+    font-family: Comic Neue;
+    font-style: normal; 
+    font-weight: normal;
+  }
+
+.칠판, .책, .책등, .world, .책등2, .상단, .docu, .이전, .두책, .스톰, .패턴, .이미지, .그려, .어린, .피라미드, .앤 ,.라, .새, .비석, .te, .돌연변이, .바스티유, .권리선언, .장면 {
+    text-decoration: underline; 
+    text-underline-position: under;
+}
+
+.칠판, .책, .책등, .world, .책등2, .상단, .docu, .이전, .두책, .스톰, .패턴, .이미지, .그려, .어린, .피라미드, .앤 ,.라, .새, .비석, .te, .돌연변이, .바스티유, .권리선언, .장면:hover {
+    cursor: pointer;
+}
+
+.칠판i{
+    position:fixed;
+    width: 1384px;
+    height: 576px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.책i{
+    position:fixed;
+    width: 1384px;
+    height: 575px;  
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    text-align:center;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none; 
+}
+
+.책등i{
+    position:fixed;
+    width: 1420px;
+    height: 325px;
+    top:100%;
+    left : 50%;
+    text-align:center;
+    max-width:140%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none; 
+}
+
+.책1 {
+    width: 458.82px;
+    height: 325px;
+    max-width:60%;
+    height: auto;
+    margin-right:6.18px;
+}
+
+.책2 {
+    width: 487px;
+    height: 117px;
+    max-width:60%;
+    height: auto;
+    margin-right:6.18px;
+}
+
+.책3 {
+    width: 451px;
+    height: 117px;
+    max-width:60%;
+    height: auto;
+}
+
+.worldi{
+    position:fixed;
+    width: 244px;
+    height: 305px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.책등2i{
+    position:fixed;
+    width: 377px;
+    height: 90px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.상단i{
+    position:fixed;
+    width: 406px;
+    height: 1005px;
+    top:100%;
+    left : 0%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.docui{
+    position:fixed;
+    width: 400px;
+    height: 201px;
+    left : -50%;
+    bottom:-10px;
+    text-align:right;
+    max-width:140%;
+    height: auto;
+    z-index:2;
+    pointer-events: none; 
+}
+
+.d1{
+    width: 162px;
+    height: 201px;
+    margin-right:2px;
+    max-width:60%;
+    height: auto;
+}
+
+.d2{
+    width: 162px;
+    height: 201px;
+    max-width:60%;
+    height: auto;
+}
+
+.이전i{
+    position:fixed;
+    width: 1300px;
+    height: 249px;
+    left : 50%;
+    top:100%;
+    text-align:center;
+    transform: translate(-50%,0%);
+    max-width:140%;
+    height: auto;
+    z-index:2;
+    pointer-events: none; 
+}
+
+.이전1, .이전2, .이전3, .이전4, .이전5 {
+    width: 200px;
+    height: 248.8px;
+    margin-right:5px;
+    max-width:60%;
+    height: auto;
+}
+
+.이전6 {
+    width: 200px;
+    height: 248.8px;
+    max-width:60%;
+    height: auto;
+}
+
+.두책i{
+    position:fixed;
+    width: 320px;
+    height: 224px;
+    top:100%;
+    right:0;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.스톰i{
+    position:fixed;
+    width: 370px;
+    height: 308px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.패턴i{
+    position:fixed;
+    width: 138px;
+    height: 32px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.이미지i{
+    position:fixed;
+    width: 700px;
+    height: 305px;
+    left : 50%;
+    top:100%;
+    text-align:center;
+    transform: translate(-50%,0%);
+    max-width:140%;
+    height: auto;
+    z-index:2;
+    pointer-events: none; 
+}
+
+.이1 {
+    width: 244px;
+    height: 305px;
+    margin-right:5px;
+    max-width:60%;
+    height: auto;
+}
+
+.이2 {
+    width: 436px;
+    height: 305px;
+    max-width:60%;
+    height: auto;
+}
+
+.그려i {
+    position:fixed;
+    width: 500px;
+    height: 305px;
+    left : 50%;
+    top:100%;
+    text-align:center;
+    transform: translate(-50%,0%);
+    max-width:140%;
+    height: auto;
+    z-index:2;
+    pointer-events: none; 
+}
+
+.그려1 {
+    width: 244px;
+    height: 305px;
+    margin-right:5px;
+    max-width:60%;
+    height: auto;
+}
+
+.그려2 {
+    width: 244px;
+    height: 63px;
+    max-width:60%;
+    height: auto;
+}
+
+.어린i {
+    position:fixed;
+    width: 370px;
+    height: 195px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.피라미드i{
+    position: fixed;
+    width: 1384px;
+    height: 608px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.앤i{
+    position:fixed;
+    width: 326px;
+    height: 716px;
+    bottom:0;
+    left : 100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.라i{
+    position:fixed;
+    width: 151px;
+    height: 331px;
+    top:100%;
+    right:0;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.새i{
+    position:fixed;
+    width: 1384px;
+    height: 576px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.비석i {
+    position:fixed;
+    width: 1100px;
+    height: 678px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    text-align:center;
+    vertical-align:middle;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.비석1{
+    width: 496px;
+    height: 568px;  
+    margin-right:2px;
+    max-width:60%;
+    height: auto;
+}
+
+.비석2{
+    width: 500px;
+    max-width:60%;
+    height: auto;
+}
+
+.tei {
+    position:fixed;
+    width: 185px;
+    height: 139px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.tet{
+    position:fixed;
+    font-family: Comic Neue;
+    font-style: normal;
+    font-weight: normal;
+    top:100%;
+    font-size: 10px;
+    line-height: 172%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.돌연변이i{
+    position:fixed;
+    width: 1384px;
+    height: 576px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.바스티유i{
+    position:fixed;
+    width: 768px;
+    height: 608px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.권리선언i{
+    position:fixed;
+    width: 593px;
+    height: 780px;
+    top:0%;
+    left : 100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.장면i{
+    position:fixed;
+    width: 1384px;
+    height: 576px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.캡1, .캡2, .캡3, .캡4, .캡5, .캡6, .캡7, .캡8, .캡9{
+    position:absolute;
+    font-family: Comic Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 172%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    opacity:0;
+    z-index:-1;
+}
+
+.캡11:hover .캡1 {
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
+
+.캡22:hover .캡2 {
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
+
+.캡33:hover .캡3 {
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
+
+.캡44:hover .캡4 {
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
+
+.캡55:hover .캡5 {
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
+
+.캡66:hover .캡6 {
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
+
+.캡77:hover .캡7 {
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
+
+.캡88:hover .캡8 {
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
+
+.캡99:hover .캡9 {
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}

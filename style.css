@@ -7,35 +7,23 @@ body {
 
 .book1{
   position: absolute;
-  width: 644px;
+  width: 1101px;
   height: 721px;
-  left: 35%;
+  left: 50%;
   top: 96px;
-  background: url(poc_mockup_fornt.png);
+  background: url(front.png);
   background-repeat:no-repeat;
   background-size:cover;  
   transform: translate(-50%,0%);
 }
 
-.book2{
-    position: absolute;
-    width: 644px;
-    height: 721px;
-    left: 65%;
-    top: 96px;
-    background: url(wh_mockup_fornt.png);
-    background-repeat:no-repeat;
-    background-size:cover;  
-    transform: translate(-50%,0%);
-}
-
 .book1:hover {
     position: absolute;
-    width: 644px;
+    width: 1101px;
     height: 721px;
-    left: 35%;
+    left: 50%;
     top: 96px;
-    background: url(poc_mockup_back.png);
+    background: url(back_cover.png);
     background-repeat:no-repeat;
     background-size:cover;
     transform: translate(-50%,0%);   

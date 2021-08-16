@@ -91,7 +91,7 @@ body {
 
 .text{
     position: absolute;
-    width: 54%;
+    width: 56%;
     left : 50%;
     top: 900px;
     transform: translate(-50%,0%);
@@ -99,9 +99,9 @@ body {
 
     font-family: Apple SD Gothic Neo;
     font-style: normal;
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 172%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 173%;
     /* or 24px */
 
     letter-spacing: -0.03em;

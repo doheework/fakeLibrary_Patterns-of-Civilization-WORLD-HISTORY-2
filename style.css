@@ -29,17 +29,6 @@ body {
     transform: translate(-50%,0%);   
 }
 
-.book2:hover {
-    position: absolute;
-    width: 644px;
-    height: 721px;
-    left: 65%;
-    top: 96px;
-    background: url(wh_mockup_back.png);
-    background-repeat:no-repeat;
-    background-size:cover;  
-    transform: translate(-50%,0%);
-}
 
 .부제 {
     position: absolute;
@@ -93,7 +82,6 @@ body {
     position: absolute;
     width: 56%;
     left : 50%;
-    top: 900px;
     transform: translate(-50%,0%);
     top: 980px;
 

@@ -6,33 +6,48 @@ body {
   }
 
 .book1{
-  position: absolute;
-  width: 1101px;
-  height: 721px;
-  left: 50%;
-  top: 96px;
-  background: url(front.png);
-  background-repeat:no-repeat;
-  background-size:cover;  
-  transform: translate(-50%,0%);
+    position:relative;
+    width: 1120px;
+    max-width:90%;
+    height:auto;
+    left: 53%;
+    top: 96px;
+    transform: translate(-50%,0%);
 }
 
-.book1:hover {
+.mockup_front{
     position: absolute;
     width: 1101px;
-    height: 721px;
-    left: 50%;
-    top: 96px;
-    background: url(back_cover.png);
-    background-repeat:no-repeat;
-    background-size:cover;
-    transform: translate(-50%,0%);   
+    max-width:90%;
+    height:auto;
+    text-align:center;
 }
 
+.mockup_inside{
+    position: absolute;
+    width: 1101px;
+    max-width:90%;
+    height:auto;
+    text-align:center;
+    opacity:0;
+    z-index:2;
+}
+
+@media screen and (max-width:600px) {
+    .book1{
+      top:120px;
+    }
+  }
+
+
+
+.book1:hover .mockup_inside{
+    opacity:1;
+}
 
 .부제 {
     position: absolute;
-    width: 627px;
+    width: 60%;
     height: 20px;
     top: 880px;
     left: 50%;
@@ -50,6 +65,25 @@ body {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+@media screen and (max-width:600px) {
+    .부제{
+      top: 360px;
+    }
+  }
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+    .부제{
+        top:600px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px){
+    .부제{
+        top:700px;
+    }
+}
+
+
 .arrow{
     position: fixed;
     left: 50px;
@@ -58,14 +92,19 @@ body {
     color: #FFFFFF;
 }
 
+@media screen and (max-width:600px) {
+    .arrow{
+      left:27px;
+    }
+  }
+
 .arrow:hover {
     cursor:pointer;
 }
 
 .backname{
     position: fixed;
-    width: 931px;
-    height: 45px;
+    width: 70%;
     left: 95px;
     top: 25px;
 
@@ -77,6 +116,14 @@ body {
 
     color: #FFFFFF;
 }
+
+@media screen and (max-width:600px) {
+    .backname{
+      left:70px;
+      font-size:25px;
+      line-height: 35px;
+    }
+  }
 
 .text{
     position: absolute;
@@ -100,11 +147,26 @@ body {
     z-index:1;
 }
 
-h {
-    font-family: Comic Neue;
-    font-style: normal; 
-    font-weight: normal;
+@media screen and (max-width:600px) {
+    .text{
+      font-size: 15px;
+      width: 75%;
+      top:440px;
+    }
   }
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+    .text{
+        top:700px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px){
+    .text{
+        top:780px;
+    }
+}
+
 
 .칠판, .책, .책등, .world, .책등2, .상단, .docu, .이전, .두책, .스톰, .패턴, .이미지, .그려, .어린, .피라미드, .앤 ,.라, .새, .비석, .te, .돌연변이, .바스티유, .권리선언, .장면 {
     box-shadow: inset 0 -1px 0 white; 

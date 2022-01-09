@@ -62,13 +62,25 @@ $(document).ready(function(){
     $(".상단").mouseover(function(){
         var image = $(".상단i");
     $(".상단i").show();
-    $(".상단i").stop().animate({top:0});
+    $(".상단i").stop().animate({left:window.innerWidth/2-image.innerWidth()/2});
     });
     $(".상단").mouseout(function(){
-    $(".상단i").stop().animate({top:"100%"});
+    $(".상단i").stop().animate({left:"-100%"});
     
     });
     });
+
+$(document).ready(function(){
+        $(".목차").mouseover(function(){
+            var image = $(".목차i");
+        $(".목차i").show();
+        $(".목차i").stop().animate({right:window.innerWidth-image.innerWidth()});
+        });
+        $(".목차").mouseout(function(){
+        $(".목차i").stop().animate({right:"100%"});
+        
+        });
+        });
 
 $(document).ready(function(){
     $(".docu").mouseover(function(){

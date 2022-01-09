@@ -5,14 +5,19 @@ body {
     background-attachment: fixed;
   }
 
+  header {
+    position:fixed;
+    z-index:1;
+}
+
 .book1{
     position:relative;
     width: 1120px;
     max-width:90%;
     height:auto;
-    left: 53%;
     top: 96px;
     transform: translate(-50%,0%);
+    left: 50%;
 }
 
 .mockup_front{
@@ -36,6 +41,7 @@ body {
 @media screen and (max-width:600px) {
     .book1{
       top:120px;
+      left:43%;
     }
   }
 
@@ -46,19 +52,19 @@ body {
 }
 
 .부제 {
+    text-align: center;
     position: absolute;
     width: 60%;
     height: 20px;
-    top: 880px;
-    left: 50%;
-    transform: translate(-50%,0%);
+    top: 750px;
+    left:14%;
 
     font-family: Apple SD Gothic Neo;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    text-align: center;
+   
 
     color: #FFFFFF;
 
@@ -67,19 +73,20 @@ body {
 
 @media screen and (max-width:600px) {
     .부제{
-      top: 360px;
+      top: 250px;
+      left:16%;
     }
   }
 
 @media screen and (min-width: 700px) and (max-width: 900px){
     .부제{
-        top:600px;
+        top:450px;
     }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1100px){
     .부제{
-        top:700px;
+        top:600px;
     }
 }
 
@@ -102,11 +109,11 @@ body {
     cursor:pointer;
 }
 
-.backname{
+h1{
     position: fixed;
     width: 70%;
     left: 95px;
-    top: 25px;
+    top: 0px;
 
     font-family: Comic Neue;
     font-style: normal;
@@ -118,7 +125,7 @@ body {
 }
 
 @media screen and (max-width:600px) {
-    .backname{
+    h1{
       left:70px;
       font-size:25px;
       line-height: 35px;
@@ -147,11 +154,17 @@ body {
     z-index:1;
 }
 
+i{
+    font-family: Comic Neue;
+    font-style: normal;
+    font-weight: normal;
+}
+
 @media screen and (max-width:600px) {
     .text{
       font-size: 15px;
       width: 75%;
-      top:440px;
+      top:500px;
     }
   }
 
@@ -168,13 +181,13 @@ body {
 }
 
 
-.칠판, .책, .책등, .world, .책등2, .상단, .docu, .이전, .두책, .스톰, .패턴, .이미지, .그려, .어린, .피라미드, .앤 ,.라, .새, .비석, .te, .돌연변이, .바스티유, .권리선언, .장면 {
+.칠판, .목차, .책, .책등, .world, .책등2, .상단, .docu, .이전, .두책, .스톰, .패턴, .이미지, .그려, .어린, .피라미드, .앤 ,.라, .새, .비석, .te, .돌연변이, .바스티유, .권리선언, .장면 {
     box-shadow: inset 0 -1px 0 white; 
     line-height: 21px;
  
 }
 
-.칠판, .책, .책등, .world, .책등2, .상단, .docu, .이전, .두책, .스톰, .패턴, .이미지, .그려, .어린, .피라미드, .앤 ,.라, .새, .비석, .te, .돌연변이, .바스티유, .권리선언, .장면:hover {
+.칠판, .목차, .책, .책등, .world, .책등2, .상단, .docu, .이전, .두책, .스톰, .패턴, .이미지, .그려, .어린, .피라미드, .앤 ,.라, .새, .비석, .te, .돌연변이, .바스티유, .권리선언, .장면:hover {
     cursor: pointer;
 }
 
@@ -255,7 +268,7 @@ body {
     pointer-events: none;
 }
 
-.책등2i{
+.책등2i {
     position:fixed;
     width: 377px;
     height: 90px;
@@ -270,14 +283,27 @@ body {
 
 .상단i{
     position:fixed;
-    width: 406px;
-    height: 1005px;
-    top:100%;
-    left : 0%;
+    width: 377px;
+    height: 90px;
+    left : -50%;
+    bottom:-10px;
     max-width:90%;
     height: auto;
     z-index:2;
     pointer-events: none;
+}
+
+.목차i{
+    position:fixed;
+    width: 406px;
+    height: 1005px;
+    right:100%;
+    top:0px;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+
 }
 
 .docui{

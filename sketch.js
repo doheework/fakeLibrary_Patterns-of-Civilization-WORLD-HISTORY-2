@@ -86,10 +86,10 @@ $(document).ready(function(){
     $(".docu").mouseover(function(){
         var image = $(".docui");
     $(".docui").show();
-    $(".docui").stop().animate({left:window.innerWidth-image.innerWidth()});
+    $(".docui").stop().animate({right:window.innerWidth-image.innerWidth()});
     });
     $(".docu").mouseout(function(){
-    $(".docui").stop().animate({left:"-100%"});
+    $(".docui").stop().animate({right:"100%"});
     });
     });
 
